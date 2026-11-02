@@ -1,0 +1,108 @@
+{
+    "format":  "neuralps_windows_review_v1",
+    "created_utc":  "2026-11-02T20:27:25.2586086Z",
+    "source_root":  "C:\\Users\\ASUS\\OneDrive\\Desktop\\NRP",
+    "repository_directory":  "neuralps/reports/NRP_review_20261102_235638_294c9ce3",
+    "included_files":  3618,
+    "included_source_bytes":  100576031,
+    "duplicate_files":  80,
+    "inventory_entries":  6569,
+    "max_file_mib":  12,
+    "max_total_source_mib":  96,
+    "archive_limit_mib":  40,
+    "status_counts":  [
+                          {
+                              "status":  "INCLUDED",
+                              "count":  3618
+                          },
+                          {
+                              "status":  "DUPLICATE_CONTENT",
+                              "count":  80
+                          },
+                          {
+                              "status":  "INVENTORY_ONLY_FILE_TYPE",
+                              "count":  2848
+                          },
+                          {
+                              "status":  "TOTAL_SIZE_LIMIT",
+                              "count":  11
+                          },
+                          {
+                              "status":  "FILE_SIZE_LIMIT",
+                              "count":  8
+                          },
+                          {
+                              "status":  "DIRECTORY_NOT_TRAVERSED",
+                              "count":  4
+                          }
+                      ],
+    "scan_errors":  [
+
+                    ],
+    "archives":  [
+                     {
+                         "name":  "reports_part001.zip",
+                         "bytes":  18120515,
+                         "sha256":  "037fd5e324da1bfeb80668ab04b89d5ec4058c06fd70de64a7f5e5b0b661827b"
+                     },
+                     {
+                         "name":  "reports_part002.zip",
+                         "bytes":  24864452,
+                         "sha256":  "c68da83d788ee919d9226c9b22225bffdca94d5405c4379e4d8be9f5249e0b4a"
+                     },
+                     {
+                         "name":  "reports_part003.zip",
+                         "bytes":  27786604,
+                         "sha256":  "5751429ecdcdfa055b590ad7fc73556c393d8578f946e592d3279324663a8297"
+                     },
+                     {
+                         "name":  "reports_part004.zip",
+                         "bytes":  4522708,
+                         "sha256":  "35699ec88dce8a9d0cae7cc61399cca4913b516af5c3f77b53bbafcdf5934ff9"
+                     }
+                 ],
+    "inventory_parts":  [
+                            {
+                                "archive":  "reports_part004.zip",
+                                "entry":  "inventory/files_0001.csv",
+                                "rows":  1000
+                            },
+                            {
+                                "archive":  "reports_part004.zip",
+                                "entry":  "inventory/files_0002.csv",
+                                "rows":  1000
+                            },
+                            {
+                                "archive":  "reports_part004.zip",
+                                "entry":  "inventory/files_0003.csv",
+                                "rows":  1000
+                            },
+                            {
+                                "archive":  "reports_part004.zip",
+                                "entry":  "inventory/files_0004.csv",
+                                "rows":  1000
+                            },
+                            {
+                                "archive":  "reports_part004.zip",
+                                "entry":  "inventory/files_0005.csv",
+                                "rows":  1000
+                            },
+                            {
+                                "archive":  "reports_part004.zip",
+                                "entry":  "inventory/files_0006.csv",
+                                "rows":  1000
+                            },
+                            {
+                                "archive":  "reports_part004.zip",
+                                "entry":  "inventory/files_0007.csv",
+                                "rows":  569
+                            }
+                        ],
+    "notes":  [
+                  "Source files were not modified.",
+                  "General archives, checkpoints and raw sequence files are inventoried only.",
+                  "Eligible files were prioritized; omitted files can be requested by their relative paths.",
+                  "Duplicate content is stored once, with all original paths retained in the inventory.",
+                  "No project code was executed and no models were loaded."
+              ]
+}
