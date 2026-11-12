@@ -1,0 +1,44 @@
+{
+  "archive_bytes": 224371560,
+  "archive_name": "inspection.zip",
+  "archive_sha256": "4ad24f973484ab5827d41a8cad7e6a07acfbf128072a9b24c4f94ea45744aa29",
+  "part_bytes": 47185920,
+  "parts": [
+    {
+      "bytes": 47185920,
+      "name": "inspection.zip.part001",
+      "sha256": "043d8c3826850463cf3686df0df8f34bcaace6426be2f0d01c2a12ead53a88b2"
+    },
+    {
+      "bytes": 47185920,
+      "name": "inspection.zip.part002",
+      "sha256": "6d5c9be33cfce080a92c3aa411b876be62c9c45ae75b13cb39fd81006d0a062c"
+    },
+    {
+      "bytes": 47185920,
+      "name": "inspection.zip.part003",
+      "sha256": "e5560df1457c909c8f99f65d908aa6f484e1cd152dbc323ced8f68df544cce5b"
+    },
+    {
+      "bytes": 47185920,
+      "name": "inspection.zip.part004",
+      "sha256": "2b8dc71df251259f2db3ebaa82334dc8c86138aef18e26811acfcdb991a7a6db"
+    },
+    {
+      "bytes": 35627880,
+      "name": "inspection.zip.part005",
+      "sha256": "e59f0ab8ff574c55f7ecfd02f78f97c4ca7685b69a98756a452332fa6102634c"
+    }
+  ],
+  "provenance": {
+    "identity_sha256": {
+      "COMPLETE.json": "70021a51dd810e96b9fcc5cc10b36e08db812b0ac3f4a57ba294ee5656e8cdaf",
+      "REQUEST.json": "6407d46e14bf1135423e245febcce83e52ee6eccca28232111bd798773e1a824",
+      "REQUEST.sha256": "c6864bcb15ee9ddf66cccd60f69c20822cb4bd9f101187947ab6d86a41663f3b"
+    },
+    "package_manifest_sha256": "9f1b51f42c432dd11e26c470e8f37d54f3fb2c399185479c5b84db5d47510d7a",
+    "run": "neuralps_puressl_labelled_eval_20261112T081440Z_9f1b51f4"
+  },
+  "reconstruction": "Concatenate part files in the listed order, verify archive_sha256, then unzip.",
+  "schema": "neuralps_binary_zip_parts_v1"
+}
